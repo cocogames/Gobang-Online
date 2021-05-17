@@ -54,4 +54,6 @@ deploy
 ```
 docker pull redis
 docker run --name gobang-redis -p 6379:6379 -d --restart=always redis redis-server --appendonly yes --requirepass "qwerty"
+
+docker pull mongo
 ```
