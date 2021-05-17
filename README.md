@@ -59,4 +59,5 @@ docker pull mongo
 docker run -d -p 27017:27017 -v /usr/local/mongo/configdb:/data/configdb -v /usr/local/mongo/mongo_db:/data/db --name mongo docker.io/mongo
 
 go build
+nohup ./gobang &
 ```
