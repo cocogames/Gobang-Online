@@ -2,10 +2,10 @@ server:
   port: 5556
 
 redis:
-  addr: 150.158.104.248:6379
+  addr: 127.0.0.1:6379
   pwd: qwerty
 
 mongodb:
-  addr: 150.158.104.248:27017
+  addr: 127.0.0.1:27017
   db: gobang
   collection: log
