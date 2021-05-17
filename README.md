@@ -48,3 +48,9 @@
 部署：
 
 ​	腾讯云，CentOS 7，docker
+
+deploy
+
+```
+
+```
